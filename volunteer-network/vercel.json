@@ -1,6 +1,6 @@
 {
   "version": 2,
   "framework": "vite",
-  "buildCommand": "npm install --force && npm rebuild rollup && npm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "cd volunteer-network && npm install && npx vite build --emptyOutDir",
+  "outputDirectory": "volunteer-network/dist"
 } 
