@@ -1,6 +1,6 @@
 {
   "version": 2,
   "framework": "vite",
-  "buildCommand": "npm install -g vite@4.5.2 && npm install && vite build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist"
 } 
