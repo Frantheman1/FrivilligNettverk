@@ -1,13 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
   "framework": "vite",
-  "outputDirectory": "dist",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node@18"
-    }
-  ]
+  "buildCommand": "cd volunteer-network && npm install && npm run build",
+  "outputDirectory": "volunteer-network/dist"
 } 
