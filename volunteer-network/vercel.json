@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "framework": "vite"
+  "framework": "vite",
+  "buildCommand": "cd volunteer-network && npm install --omit=optional && npm run build",
+  "outputDirectory": "volunteer-network/dist"
 } 
