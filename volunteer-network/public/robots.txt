@@ -1,0 +1,6 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location (you can add this later when you have a sitemap)
+# Sitemap: https://frivillignettverk.vercel.app/sitemap.xml 
